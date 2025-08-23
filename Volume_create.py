@@ -14,7 +14,7 @@ config.CONNECTION = HostConnection(
 
 
 volume = Volume(
-    name="vol_data_01",               # Volume name
+    name="vol_data_02",               # Volume name
     svm={"name": "svm1"},      # SVM name
     aggregates=[{"name": "aggr_test"}],   # Aggregate name
     size=1073741824,                  # Size in bytes (1GB)
